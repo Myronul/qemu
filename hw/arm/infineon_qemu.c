@@ -1,0 +1,10 @@
+
+#include "qemu/osdep.h"
+#include "qapi/error.h"
+#include "qemu/module.h"
+#include "hw/arm/boot.h"
+#include "system/address-spaces.h"
+#include "hw/core/qdev-properties.h"
+#include "hw/core/qdev-clock.h"
+#include "hw/misc/unimp.h"
+#include "system/system.h"
